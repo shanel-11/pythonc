@@ -1,0 +1,59 @@
+#countd=10
+#while countd>0:
+  #  print(countd)
+  #  countd=countd+1
+
+
+#for i in range(5):
+   # print(i)
+
+#for i in range(10,0,-1):
+ #   print(i)
+
+#for i in range(5):
+#    if i==3:
+ #       continue
+ #   print(i)
+
+
+
+
+countdown=10
+while countdown>0:
+    print(countdown)
+    countdown=countdown-1
+
+
+for i in range(1,11,1):
+    print(i)
+
+for i in range(5):
+    print("jfndjf")
+
+for i in range(0,22,2):
+    print(i)
+
+for i in range(10,0,-1):
+    print("countdown:",i)
+
+n=int(input("number:"))
+sum=0
+for i in range(1,n+1):
+    sum=sum+i
+print(sum)
+
+password= 111
+chances=3
+#p=int(input("pass:"))
+for i in range(3):
+    p=int(input("pass:"))
+    if p==password:
+        print("success")
+        break
+    else:
+        print("access denied")
+
+
+a=int(input("input:"))
+for i in range(1,a*1):
+    print("*"*1)
